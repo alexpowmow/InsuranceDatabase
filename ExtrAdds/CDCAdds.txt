@@ -1,0 +1,49 @@
+INSERT INTO CREDIT(customer_id,cardholder_name,cardNumber, cardexpdate, cardcvc,cardCompany)
+VALUES(10008, 'Boyce Kroker', 9834675847364789, 0324, 987, 'Mastercard');
+
+INSERT INTO CREDIT(customer_id,cardholder_name,cardNumber, cardexpdate, cardcvc,cardCompany)
+VALUES(10013, 'Arita Bailer', 9873647564982736, 0826, 362, 'Visa');
+
+INSERT INTO CREDIT(customer_id,cardholder_name,cardNumber, cardexpdate, cardcvc,cardCompany)
+VALUES(10014, 'Jill Spiller', 7638478927838476, 0425, 681, 'Discover');
+
+
+
+
+
+INSERT INTO DEBIT(customer_id,cardholder_name,cardNumber, cardexpdate, cardcvc,cardBank)
+VALUES(10006, 'Potty Spotts', 9827364563782736, 0123, 983, 'Mastercard');
+
+INSERT INTO DEBIT(customer_id,cardholder_name,cardNumber, cardexpdate, cardcvc,cardBank)
+VALUES(10009, 'Sommer Ray', 2873647598436745, 0323, 376, 'Visa');
+
+INSERT INTO DEBIT(customer_id,cardholder_name,cardNumber, cardexpdate, cardcvc,cardBank)
+VALUES(10012, 'Tobie Grey', 0926178463928109, 0827, 872, 'Discover');
+
+INSERT INTO DEBIT(customer_id,cardholder_name,cardNumber, cardexpdate, cardcvc,cardBank)
+VALUES(10015, 'Jena Nevier', 2234728098712776, 0425, 005, 'Discover');
+
+INSERT INTO DEBIT(customer_id,cardholder_name,cardNumber, cardexpdate, cardcvc,cardBank)
+VALUES(10017, 'Tristan Pondel', 0198276930010098, 0122, 488, 'Visa');
+
+INSERT INTO DEBIT(customer_id,cardholder_name,cardNumber, cardexpdate, cardcvc,cardBank)
+VALUES(10020, 'Alyssa Strater', 9567831198227864, 0722, 142, 'Discover');
+
+
+INSERT INTO CHECKING(customer_id, routing_number, account_number)
+VALUES(10007,987459837,129834598738);
+
+INSERT INTO CHECKING(customer_id, routing_number, account_number)
+VALUES(10010,091283475,092834763847);
+
+INSERT INTO CHECKING(customer_id, routing_number, account_number)
+VALUES(10011,923874653,872341823968);
+
+INSERT INTO CHECKING(customer_id, routing_number, account_number)
+VALUES(10016,983475938,009283749982);
+
+INSERT INTO CHECKING(customer_id, routing_number, account_number)
+VALUES(10018,623672734,028374678621);
+
+INSERT INTO CHECKING(customer_id, routing_number, account_number)
+VALUES(10019,123987433,928736827643);

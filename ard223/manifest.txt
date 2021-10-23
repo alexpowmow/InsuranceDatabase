@@ -1,0 +1,2 @@
+Main-class: insuranceDatabase
+Class-Path: ojdbc8.jar

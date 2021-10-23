@@ -1,0 +1,44 @@
+INSERT INTO CUSTOMER(customer_id,customer_firstName,customer_lastName,agent_id)
+VALUES(10006,'Potty', 'Spotts',00006);
+
+INSERT INTO CUSTOMER(customer_id,customer_firstName,customer_lastName,agent_id)
+VALUES(10007,'Milan', 'Whitaker',00007);
+
+INSERT INTO CUSTOMER(customer_id,customer_firstName,customer_lastName,agent_id)
+VALUES(10008,'Boyce', 'Kroker',00008);
+
+INSERT INTO CUSTOMER(customer_id,customer_firstName,customer_lastName,agent_id)
+VALUES(10009,'Sommer', 'Ray',00009);
+
+INSERT INTO CUSTOMER(customer_id,customer_firstName,customer_lastName,agent_id)
+VALUES(10010,'Lilda', 'Ganser',00010);
+
+INSERT INTO CUSTOMER(customer_id,customer_firstName,customer_lastName,agent_id)
+VALUES(10011,'Afton', 'Crapper',00009);
+
+INSERT INTO CUSTOMER(customer_id,customer_firstName,customer_lastName,agent_id)
+VALUES(10012,'Tobie', 'Grey',00006);
+
+INSERT INTO CUSTOMER(customer_id,customer_firstName,customer_lastName,agent_id)
+VALUES(10013,'Arita', 'Bailer',00006);
+
+INSERT INTO CUSTOMER(customer_id,customer_firstName,customer_lastName,agent_id)
+VALUES(10014,'Jill', 'Spiller',00009);
+
+INSERT INTO CUSTOMER(customer_id,customer_firstName,customer_lastName,agent_id)
+VALUES(10015,'Jena', 'Nevier',00002);
+
+INSERT INTO CUSTOMER(customer_id,customer_firstName,customer_lastName,agent_id)
+VALUES(10016,'Perry', 'Platapus',00002);
+
+INSERT INTO CUSTOMER(customer_id,customer_firstName,customer_lastName,agent_id)
+VALUES(10017,'Tristan', 'Pondel',00009);
+
+INSERT INTO CUSTOMER(customer_id,customer_firstName,customer_lastName,agent_id)
+VALUES(10018,'Errol', 'Haag',00008);
+
+INSERT INTO CUSTOMER(customer_id,customer_firstName,customer_lastName,agent_id)
+VALUES(10019,'Peg', 'Kittle',00005);
+
+INSERT INTO CUSTOMER(customer_id,customer_firstName,customer_lastName,agent_id)
+VALUES(10020,'Alyssa', 'Strater',00005);

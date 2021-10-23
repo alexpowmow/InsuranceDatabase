@@ -1,0 +1,199 @@
+INSERT INTO AGENT(agent_id, customer_id)
+VALUES (00000,10000);
+
+INSERT INTO AGENT(agent_id, customer_id)
+VALUES (00001,10001);
+
+INSERT INTO AGENT(agent_id, customer_id)
+VALUES (00002,10002);
+
+INSERT INTO AGENT(agent_id, customer_id)
+VALUES (00003,10003);
+
+INSERT INTO AGENT(agent_id, customer_id)
+VALUES (00004,10004);
+
+INSERT INTO AGENT(agent_id, customer_id)
+VALUES (00005,10005);
+
+
+INSERT INTO CUSTOMER(customer_id,customer_fullName,customer_firstName,customer_lastName,agent_id)
+VALUES(10000,'Alexander DAlessandro','Alexander', 'DAlessandro',00000);
+
+INSERT INTO CUSTOMER(customer_id,customer_fullName,customer_firstName,customer_lastName,agent_id)
+VALUES(10001,'Greg DAlessandro','Greg', 'DAlessandro',00001);
+
+INSERT INTO CUSTOMER(customer_id,customer_fullName,customer_firstName,customer_lastName,agent_id)
+VALUES(10002,'Lisa DAlessandro','Lisa', 'DAlessandro',00002);
+
+INSERT INTO CUSTOMER(customer_id,customer_fullName,customer_firstName,customer_lastName,agent_id)
+VALUES(10003,'Nikki DAlessandro','Nikki', 'DAlessandro',00003);
+
+INSERT INTO CUSTOMER(customer_id,customer_fullName,customer_firstName,customer_lastName,agent_id)
+VALUES(10004,'Robert Baker','Robert', 'Baker',00004);
+
+INSERT INTO CUSTOMER(customer_id,customer_fullName,customer_firstName,customer_lastName,agent_id)
+VALUES(10005,'Harriet Baker','Harriet', 'Baker',00005);
+
+INSERT INTO POLICY(policy_id, policy_date, policy_price, customer_id, agent_id)
+VALUES (10000000, DATE '2000-11-22', 350,10000, 00000);
+
+INSERT INTO POLICY(policy_id, policy_date, policy_price, customer_id, agent_id)
+VALUES (10000001, DATE '2001-10-26', 350,10001, 00001);
+
+INSERT INTO POLICY(policy_id, policy_date, policy_price, customer_id, agent_id)
+VALUES (10000002, DATE '2006-08-21', 350,10002, 00002);
+
+INSERT INTO POLICY(policy_id, policy_date, policy_price, customer_id, agent_id)
+VALUES (10000003, DATE '2008-02-12', 350,10003, 00003);
+
+INSERT INTO POLICY(policy_id, policy_date, policy_price, customer_id, agent_id)
+VALUES (10000004, DATE '2010-04-02', 350,10004, 00004);
+
+INSERT INTO POLICY(policy_id, policy_date, policy_price, customer_id, agent_id)
+VALUES (10000005, DATE '2012-12-13', 350,10005, 00005);
+
+INSERT INTO ADJUSTOR(adjustor_id)
+VALUES(100000);
+
+INSERT INTO ADJUSTOR(adjustor_id)
+VALUES(100001);
+
+INSERT INTO ADJUSTOR(adjustor_id)
+VALUES(100002);
+
+INSERT INTO ADJUSTOR(adjustor_id)
+VALUES(100003);
+
+INSERT INTO ADJUSTOR(adjustor_id)
+VALUES(100004);
+
+INSERT INTO ADJUSTOR(adjustor_id)
+VALUES(100005);
+
+INSERT INTO COMPANY(company_id, company_name)
+VALUES(1000000, 'Costco');
+
+INSERT INTO COMPANY(company_id, company_name)
+VALUES(1000001, 'Home Depot');
+
+INSERT INTO COMPANY(company_id, company_name)
+VALUES(1000002, 'Target');
+
+INSERT INTO COMPANY(company_id, company_name)
+VALUES(1000003, 'Walmart');
+
+INSERT INTO COMPANY(company_id, company_name)
+VALUES(1000004, 'Gamestop');
+
+INSERT INTO COMPANY(company_id, company_name)
+VALUES(1000005, 'Lowes');
+
+INSERT INTO CLAIM(claim_id, claim_type, claim_desc, policy_id, customer_id,adjustor_id, company_id)
+VALUES(1000000000, 'Auto', 'Rear light broken from crash', 10000000,10000,100000,1000000);
+
+INSERT INTO CLAIM(claim_id, claim_type, claim_desc, policy_id, customer_id,adjustor_id, company_id)
+VALUES(1000000001, 'Home', 'Window shattered by rain storm', 10000001,10001,100001,1000002);
+
+INSERT INTO CLAIM(claim_id, claim_type, claim_desc, policy_id, customer_id,adjustor_id, company_id)
+VALUES(1000000002, 'Auto', 'Head on collision. Totaled car', 10000002,10002,100002,1000000);
+
+INSERT INTO CLAIM(claim_id, claim_type, claim_desc, policy_id, customer_id,adjustor_id, company_id)
+VALUES(1000000003, 'Auto', 'Car engine broken. Likely naturally from overtime', 10000003,10003,100003,1000003);
+
+INSERT INTO CLAIM(claim_id, claim_type, claim_desc, policy_id, customer_id,adjustor_id, company_id)
+VALUES(1000000004, 'Home', 'House Fire. House totally destroyed.', 10000004,10004,100004,1000002);
+
+INSERT INTO CLAIM(claim_id, claim_type, claim_desc, policy_id, customer_id,adjustor_id, company_id)
+VALUES(1000000005, 'Home', 'Excessive amounts of snow caused a roof cave in.', 10000005,10005,100005,1000002);
+
+
+INSERT INTO POLICY_TYPE(policy_id, policy_type)
+VALUES(10000000, 'Auto');
+
+INSERT INTO POLICY_TYPE(policy_id, policy_type)
+VALUES(10000001, 'Home');
+
+INSERT INTO POLICY_TYPE(policy_id, policy_type)
+VALUES(10000002, 'Auto');
+
+INSERT INTO POLICY_TYPE(policy_id, policy_type)
+VALUES(10000003, 'Auto');
+
+INSERT INTO POLICY_TYPE(policy_id, policy_type)
+VALUES(10000004, 'Home');
+
+INSERT INTO POLICY_TYPE(policy_id, policy_type)
+VALUES(10000005, 'Home');
+
+INSERT INTO AUTO(policy_id, vehicle_VIN, vehicleModel, vehicleYear,primaryDriver, primaryLocation)
+VALUES(10000000, '4SP78R5G6E32B6F8J', 'Ford', 2000, 'Alexander DAlessandro', 'Morristown NJ');
+
+INSERT INTO AUTO(policy_id, vehicle_VIN, vehicleModel, vehicleYear,primaryDriver, primaryLocation)
+VALUES(10000002, 'PO74R5E4G9K7BGF56', 'Honda', 2006, 'Lisa DAlessandro', 'Morristown NJ');
+
+INSERT INTO AUTO(policy_id, vehicle_VIN, vehicleModel, vehicleYear,primaryDriver, primaryLocation)
+VALUES(10000003, 'PR23HBJ8F5DV69MH3', 'Toyota', 2003, 'Nikki DAlessandro', 'Morristown NJ');
+
+INSERT INTO HOME(policy_id,propertylocation,houseSize, houseValue, houseType)
+VALUES(10000001, 'Morristown NJ', 3000, 1000000, 'Standard');
+
+INSERT INTO HOME(policy_id,propertylocation,houseSize, houseValue, houseType)
+VALUES(10000004, NULL, 3000, 1000000, 'RV');
+
+INSERT INTO HOME(policy_id,propertylocation,houseSize, houseValue, houseType)
+VALUES(10000005, 'White Plains NY', 3000, 1000000, 'Standard');
+
+INSERT INTO payment_Type(customer_id,payment_name)
+VALUES(10000, 'Credit');
+
+INSERT INTO payment_Type(customer_id,payment_name)
+VALUES(10001, 'Debit');
+
+INSERT INTO payment_Type(customer_id,payment_name)
+VALUES(10002, 'Check');
+
+INSERT INTO payment_Type(customer_id,payment_name)
+VALUES(10003, 'Check');
+
+INSERT INTO payment_Type(customer_id,payment_name)
+VALUES(10004, 'Credit');
+
+INSERT INTO payment_Type(customer_id,payment_name)
+VALUES(10005, 'Debit');
+
+INSERT INTO CREDIT(customer_id,cardholder_name,cardNumber, cardexpdate, cardcvc,cardCompany)
+VALUES(10000, 'Alexander DAlessandro', 1111222233334444, 0324, 083, 'Visa');
+
+INSERT INTO CREDIT(customer_id,cardholder_name,cardNumber, cardexpdate, cardcvc,cardCompany)
+VALUES(10004, 'Robert Baker', 5555666677778888, 0225, 972, 'Mastercard');
+
+INSERT INTO DEBIT(customer_id,cardholder_name,cardNumber, cardexpdate, cardcvc,cardBank)
+VALUES(10001, 'Greg DAlessandro', 3333444455556666, 0522, 235, 'Mastercard');
+
+INSERT INTO DEBIT(customer_id,cardholder_name,cardNumber, cardexpdate, cardcvc,cardBank)
+VALUES(10005, 'Harriet Baker', 8888777766665555, 0826, 845, 'Visa');
+
+INSERT INTO CHECKING(customer_id, routing_number, account_number)
+VALUES(10002,874635467,874637564736);
+
+INSERT INTO CHECKING(customer_id, routing_number, account_number)
+VALUES(10003,746574637,127863425364);
+
+INSERT INTO ITEMS_INSURED(item_id, item_type, claim_id)
+VALUES(100000000, 'Rear Light', 1000000000);
+
+INSERT INTO ITEMS_INSURED(item_id, item_type, claim_id)
+VALUES(100000001, 'Window', 1000000001);
+
+INSERT INTO ITEMS_INSURED(item_id, item_type, claim_id)
+VALUES(100000002, 'Car parts', 1000000002);
+
+INSERT INTO ITEMS_INSURED(item_id, item_type, claim_id)
+VALUES(100000003, 'Engine', 1000000003);
+
+INSERT INTO ITEMS_INSURED(item_id, item_type, claim_id)
+VALUES(100000004, 'Wood', 1000000004);
+
+INSERT INTO ITEMS_INSURED(item_id, item_type, claim_id)
+VALUES(100000005, 'Wood', 1000000005);

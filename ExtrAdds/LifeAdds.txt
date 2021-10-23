@@ -1,0 +1,30 @@
+INSERT INTO LIFE(policy_id, insuredPerson, beneficiary, coverageAmount)
+VALUES(10000006,'Potty Spotts', 'Jerry Dodds', 300000);
+
+INSERT INTO LIFE(policy_id, insuredPerson, beneficiary, coverageAmount)
+VALUES(10000007,'Milan Whitaker', 'Dude Keells', 560000);
+
+INSERT INTO LIFE(policy_id, insuredPerson, beneficiary, coverageAmount)
+VALUES(10000008,'Boyce Kroker', 'Penny Wise', 150000);
+
+INSERT INTO AUTO(policy_id, vehicle_VIN, vehicleModel, vehicleYear,primaryDriver, primaryLocation)
+VALUES(10000009, 'SH23HBN4D8DV69MP2', 'Mercedes', 2019, 'Sommer Ray', 'Las Vegas Nevada');
+
+INSERT INTO LIFE(policy_id, insuredPerson, beneficiary, coverageAmount)
+VALUES(10000010,'Lilda', 'Ganser', 950000);
+
+
+INSERT INTO POLICY_TYPE(policy_id, policy_type)
+VALUES(10000006, 'Life');
+
+INSERT INTO POLICY_TYPE(policy_id, policy_type)
+VALUES(10000007, 'Life');
+
+INSERT INTO POLICY_TYPE(policy_id, policy_type)
+VALUES(10000008, 'Life');
+
+INSERT INTO POLICY_TYPE(policy_id, policy_type)
+VALUES(10000009, 'Home');
+
+INSERT INTO POLICY_TYPE(policy_id, policy_type)
+VALUES(10000010, 'Life');

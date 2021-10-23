@@ -1,0 +1,15 @@
+
+INSERT INTO ADJUSTOR(adjustor_id, adjustor_firstName, adjustor_lastName)
+VALUES(100006, 'Derrick', 'Henry');
+
+INSERT INTO ADJUSTOR(adjustor_id, adjustor_firstName, adjustor_lastName)
+VALUES(100007, 'Talia', 'Gold');
+
+INSERT INTO ADJUSTOR(adjustor_id, adjustor_firstName, adjustor_lastName)
+VALUES(100008, 'Jonathon', 'Stone');
+
+INSERT INTO ADJUSTOR(adjustor_id, adjustor_firstName, adjustor_lastName)
+VALUES(100009, 'Brooke', 'Stringer');
+
+INSERT INTO ADJUSTOR(adjustor_id, adjustor_firstName, adjustor_lastName)
+VALUES(100010, 'Jeremy', 'Weltmont');

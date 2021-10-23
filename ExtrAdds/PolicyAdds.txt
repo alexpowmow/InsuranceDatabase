@@ -1,0 +1,15 @@
+
+INSERT INTO POLICY(policy_id, policy_date, policy_price, customer_id, agent_id)
+VALUES (10000006, DATE '2010-12-22', 450, 10006, 00006);
+
+INSERT INTO POLICY(policy_id, policy_date, policy_price, customer_id, agent_id)
+VALUES (10000007, DATE '2016-10-22', 450, 10007, 00007);
+
+INSERT INTO POLICY(policy_id, policy_date, policy_price, customer_id, agent_id)
+VALUES (10000008, DATE '2017-08-27', 450, 10008, 00008);
+
+INSERT INTO POLICY(policy_id, policy_date, policy_price, customer_id, agent_id)
+VALUES (10000009, DATE '2009-06-17', 450, 10009, 00009);
+
+INSERT INTO POLICY(policy_id, policy_date, policy_price, customer_id, agent_id)
+VALUES (10000010, DATE '2020-02-12', 450, 10010, 00010);

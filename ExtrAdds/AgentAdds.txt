@@ -1,0 +1,45 @@
+INSERT INTO AGENT(agent_id, , customer_id, agent_firstName, agent_lastName)
+VALUES (00006,10006,'Stormy', 'Waters');
+
+INSERT INTO AGENT(agent_id, , customer_id, agent_firstName, agent_lastName)
+VALUES (00007,10007,'Jerry', 'Reed');
+
+
+INSERT INTO AGENT(agent_id, , customer_id, agent_firstName, agent_lastName)
+VALUES (00008,10008,'Britney', 'Spears');
+
+INSERT INTO AGENT(agent_id, , customer_id, agent_firstName, agent_lastName)
+VALUES (00009,10009,'Jordan', 'Belfort');
+
+INSERT INTO AGENT(agent_id, , customer_id, agent_firstName, agent_lastName)
+VALUES (00010,10010,'Yuri', 'Hinter');
+
+INSERT INTO AGENT(agent_id, , customer_id, agent_firstName, agent_lastName)
+VALUES (00009,10011,'Jordan', 'Belfort');
+
+INSERT INTO AGENT(agent_id, , customer_id, agent_firstName, agent_lastName)
+VALUES (00006,10012,'Stormy', 'Waters');
+
+INSERT INTO AGENT(agent_id, , customer_id, agent_firstName, agent_lastName)
+VALUES (00006,10013,'Stormy', 'Waters');
+
+INSERT INTO AGENT(agent_id, , customer_id, agent_firstName, agent_lastName)
+VALUES (00009,10014,'Jordan', 'Belfort');
+
+INSERT INTO AGENT(agent_id, , customer_id, agent_firstName, agent_lastName)
+VALUES (00002,10015,'Bob', 'Pistol');
+
+INSERT INTO AGENT(agent_id, , customer_id, agent_firstName, agent_lastName)
+VALUES (00002,10016,'Bob', 'Pistol');
+
+INSERT INTO AGENT(agent_id, , customer_id, agent_firstName, agent_lastName)
+VALUES (00009,10017,'Jordan', 'Belfort');
+
+INSERT INTO AGENT(agent_id, , customer_id, agent_firstName, agent_lastName)
+VALUES (00008,10018,'Britney', 'Spears');
+
+INSERT INTO AGENT(agent_id, , customer_id, agent_firstName, agent_lastName)
+VALUES (00005,10019,'Jake', 'StateFarm');
+
+INSERT INTO AGENT(agent_id, , customer_id, agent_firstName, agent_lastName)
+VALUES (00005,10020,'Jake', 'StateFarm');

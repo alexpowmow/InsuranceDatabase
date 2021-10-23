@@ -1,0 +1,44 @@
+INSERT INTO payment_Type(customer_id,payment_name)
+VALUES(10006, 'Debit');
+
+INSERT INTO payment_Type(customer_id,payment_name)
+VALUES(10007, 'Checking');
+
+INSERT INTO payment_Type(customer_id,payment_name)
+VALUES(10008, 'Credit');
+
+INSERT INTO payment_Type(customer_id,payment_name)
+VALUES(10009, 'Debit');
+
+INSERT INTO payment_Type(customer_id,payment_name)
+VALUES(10010, 'Checking');
+
+INSERT INTO payment_Type(customer_id,payment_name)
+VALUES(10011, 'Checking');
+
+INSERT INTO payment_Type(customer_id,payment_name)
+VALUES(10012, 'Debit');
+
+INSERT INTO payment_Type(customer_id,payment_name)
+VALUES(10013, 'Credit');
+
+INSERT INTO payment_Type(customer_id,payment_name)
+VALUES(10014, 'Credit');
+
+INSERT INTO payment_Type(customer_id,payment_name)
+VALUES(10015, 'Debit');
+
+INSERT INTO payment_Type(customer_id,payment_name)
+VALUES(10016, 'Checking');
+
+INSERT INTO payment_Type(customer_id,payment_name)
+VALUES(10017, 'Debit');
+
+INSERT INTO payment_Type(customer_id,payment_name)
+VALUES(10018, 'Checking');
+
+INSERT INTO payment_Type(customer_id,payment_name)
+VALUES(10019, 'Checking');
+
+INSERT INTO payment_Type(customer_id,payment_name)
+VALUES(10020, 'Debit');

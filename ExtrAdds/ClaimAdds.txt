@@ -1,0 +1,14 @@
+INSERT INTO CLAIM(claim_id, claim_type, claim_desc, policy_id, customer_id, adjustor_id, company_id)
+VALUES(1000000006, 'Life', 'Death from disease', 10000006,10006,100006, 1000006);
+
+INSERT INTO CLAIM(claim_id, claim_type, claim_desc, policy_id, customer_id, adjustor_id, company_id)
+VALUES(1000000007, 'Life', 'Death from homicide', 10000007,10007,100007, 1000006);
+
+INSERT INTO CLAIM(claim_id, claim_type, claim_desc, policy_id, customer_id, adjustor_id, company_id)
+VALUES(1000000008, 'Life', 'Death from falling down stairs', 10000008,10008,100008, 1000006);
+
+INSERT INTO CLAIM(claim_id, claim_type, claim_desc, policy_id, customer_id, adjustor_id, company_id)
+VALUES(1000000009, 'Home', 'Drunk driver hit the side of house', 10000009,10009,100009, 1000008);
+
+INSERT INTO CLAIM(claim_id, claim_type, claim_desc, policy_id, customer_id, adjustor_id, company_id)
+VALUES(1000000010, 'Life', 'Death from old age', 10000010,10010,100010, 1000006);
